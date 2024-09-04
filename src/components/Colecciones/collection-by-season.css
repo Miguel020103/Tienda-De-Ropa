@@ -1,0 +1,59 @@
+/* collection-by-season.css */
+
+.collection-by-season {
+    padding: 40px 0;
+    display: flex;
+    background-color: #f5f5f5;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .collection-by-season h2 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+  }
+  
+  .collection-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .collection-card {
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .collection-card img {
+    width: 90%;
+    max-width: 300px;
+    height: auto;
+  }
+  
+  .collection-card h3 {
+    margin-top: 10px; /* Agrega espacio arriba del título */
+  }
+  
+  .collection-card button {
+    background-color: hsl(0, 0%, 100%);
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    margin-top: auto;
+  }
+  
+  .collection-card button:hover {
+    background-color: #000000;
+    color: #ffffff;
+  }
+  /* ...otros estilos ... */
+  
